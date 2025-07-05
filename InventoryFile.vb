@@ -51,4 +51,14 @@ Public Class InventoryFile
 
     End Sub
 
+    Public Sub SaveData(inv As Inventory)
+        outFile = File.CreateText(fileName)
+        Dim item As Item
+
+        For Each item In inv.Items
+            WriteOneItem(item)
+        Next
+        outFile.Close()
+    End Sub
+
 End Class

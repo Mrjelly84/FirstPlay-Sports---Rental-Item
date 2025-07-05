@@ -26,19 +26,19 @@ Partial Class Form1
         btnRemove = New Button()
         btnClose = New Button()
         Panel1 = New Panel()
-        txtQuantity = New TextBox()
-        txtMonthly = New TextBox()
-        txtWeekly = New TextBox()
+        Label7 = New Label()
+        Label6 = New Label()
+        Label5 = New Label()
+        Label4 = New Label()
         txtDaily = New TextBox()
+        txtWeekly = New TextBox()
+        txtMonthly = New TextBox()
+        txtQuantity = New TextBox()
         txtDescription = New TextBox()
         cboIdNumber = New ComboBox()
         Label1 = New Label()
         Label2 = New Label()
         Label3 = New Label()
-        Label4 = New Label()
-        Label5 = New Label()
-        Label6 = New Label()
-        Label7 = New Label()
         Panel1.SuspendLayout()
         SuspendLayout()
         ' 
@@ -84,19 +84,48 @@ Partial Class Form1
         Panel1.Size = New Size(227, 180)
         Panel1.TabIndex = 3
         ' 
-        ' txtQuantity
+        ' Label7
         ' 
-        txtQuantity.Location = New Point(159, 330)
-        txtQuantity.Name = "txtQuantity"
-        txtQuantity.Size = New Size(100, 23)
-        txtQuantity.TabIndex = 4
+        Label7.AutoSize = True
+        Label7.Location = New Point(12, 10)
+        Label7.Name = "Label7"
+        Label7.Size = New Size(35, 15)
+        Label7.TabIndex = 6
+        Label7.Text = "Rates"
         ' 
-        ' txtMonthly
+        ' Label6
         ' 
-        txtMonthly.Location = New Point(91, 126)
-        txtMonthly.Name = "txtMonthly"
-        txtMonthly.Size = New Size(100, 23)
-        txtMonthly.TabIndex = 0
+        Label6.AutoSize = True
+        Label6.Location = New Point(28, 126)
+        Label6.Name = "Label6"
+        Label6.Size = New Size(52, 15)
+        Label6.TabIndex = 5
+        Label6.Text = "Monthly"
+        ' 
+        ' Label5
+        ' 
+        Label5.AutoSize = True
+        Label5.Location = New Point(30, 88)
+        Label5.Name = "Label5"
+        Label5.Size = New Size(45, 15)
+        Label5.TabIndex = 4
+        Label5.Text = "Weekly"
+        ' 
+        ' Label4
+        ' 
+        Label4.AutoSize = True
+        Label4.Location = New Point(28, 43)
+        Label4.Name = "Label4"
+        Label4.Size = New Size(33, 15)
+        Label4.TabIndex = 3
+        Label4.Text = "Daily"
+        ' 
+        ' txtDaily
+        ' 
+        txtDaily.Location = New Point(92, 43)
+        txtDaily.Name = "txtDaily"
+        txtDaily.Size = New Size(100, 23)
+        txtDaily.TabIndex = 2
         ' 
         ' txtWeekly
         ' 
@@ -105,12 +134,19 @@ Partial Class Form1
         txtWeekly.Size = New Size(100, 23)
         txtWeekly.TabIndex = 1
         ' 
-        ' txtDaily
+        ' txtMonthly
         ' 
-        txtDaily.Location = New Point(92, 43)
-        txtDaily.Name = "txtDaily"
-        txtDaily.Size = New Size(100, 23)
-        txtDaily.TabIndex = 2
+        txtMonthly.Location = New Point(91, 126)
+        txtMonthly.Name = "txtMonthly"
+        txtMonthly.Size = New Size(100, 23)
+        txtMonthly.TabIndex = 0
+        ' 
+        ' txtQuantity
+        ' 
+        txtQuantity.Location = New Point(159, 330)
+        txtQuantity.Name = "txtQuantity"
+        txtQuantity.Size = New Size(100, 23)
+        txtQuantity.TabIndex = 4
         ' 
         ' txtDescription
         ' 
@@ -153,42 +189,6 @@ Partial Class Form1
         Label3.Size = New Size(53, 15)
         Label3.TabIndex = 9
         Label3.Text = "Quantity"
-        ' 
-        ' Label4
-        ' 
-        Label4.AutoSize = True
-        Label4.Location = New Point(28, 43)
-        Label4.Name = "Label4"
-        Label4.Size = New Size(33, 15)
-        Label4.TabIndex = 3
-        Label4.Text = "Daily"
-        ' 
-        ' Label5
-        ' 
-        Label5.AutoSize = True
-        Label5.Location = New Point(30, 88)
-        Label5.Name = "Label5"
-        Label5.Size = New Size(45, 15)
-        Label5.TabIndex = 4
-        Label5.Text = "Weekly"
-        ' 
-        ' Label6
-        ' 
-        Label6.AutoSize = True
-        Label6.Location = New Point(28, 126)
-        Label6.Name = "Label6"
-        Label6.Size = New Size(52, 15)
-        Label6.TabIndex = 5
-        Label6.Text = "Monthly"
-        ' 
-        ' Label7
-        ' 
-        Label7.AutoSize = True
-        Label7.Location = New Point(12, 10)
-        Label7.Name = "Label7"
-        Label7.Size = New Size(35, 15)
-        Label7.TabIndex = 6
-        Label7.Text = "Rates"
         ' 
         ' Form1
         ' 
