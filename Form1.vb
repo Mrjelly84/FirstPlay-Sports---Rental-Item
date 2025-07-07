@@ -35,4 +35,30 @@
         Close()
     End Sub
 
+    Private Sub cboIdNumber_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cboIdNumber.SelectedIndexChanged
+        Dim anitem As Item = inv.GetItem(cboIdNumber.Text)
+        If anitem Is Nothing Then
+            MessageBox.Show("This item ID was not found")
+            clearfields()
+        Else
+            txtDescription.Text = anitem.Description
+            txtDaily.Text = anitem.DailyRate.ToString()
+            txtWeekly.Text = anitem.WeeklyRate.ToString()
+            txtMonthly.Text = anitem.MonthlyRate.ToString()
+            txtQuantity.Text = anitem.Quantity.ToString()
+
+        End If
+
+    End Sub
+
+    Private Sub ClearFields()
+        txtDescription.Clear()
+        txtDaily.Clear()
+        txtMonthly.Clear()
+        txtQuantity.Clear()
+        txtWeekly.Clear()
+        cboIdNumber.Text = String.Empty
+
+    End Sub
+
 End Class

@@ -1,0 +1,16 @@
+C:\Users\williamd\Downloads\FirstPlay-Sports---Rental-Item-master\FirstPlay-Sports---Rental-Item-master\bin\Debug\net9.0-windows\FirstPlay Sports - Rental Item.exe
+C:\Users\williamd\Downloads\FirstPlay-Sports---Rental-Item-master\FirstPlay-Sports---Rental-Item-master\bin\Debug\net9.0-windows\FirstPlay Sports - Rental Item.deps.json
+C:\Users\williamd\Downloads\FirstPlay-Sports---Rental-Item-master\FirstPlay-Sports---Rental-Item-master\bin\Debug\net9.0-windows\FirstPlay Sports - Rental Item.runtimeconfig.json
+C:\Users\williamd\Downloads\FirstPlay-Sports---Rental-Item-master\FirstPlay-Sports---Rental-Item-master\bin\Debug\net9.0-windows\FirstPlay Sports - Rental Item.dll
+C:\Users\williamd\Downloads\FirstPlay-Sports---Rental-Item-master\FirstPlay-Sports---Rental-Item-master\bin\Debug\net9.0-windows\FirstPlay Sports - Rental Item.pdb
+C:\Users\williamd\Downloads\FirstPlay-Sports---Rental-Item-master\FirstPlay-Sports---Rental-Item-master\obj\Debug\net9.0-windows\FirstPlay_Sports___Rental_Item.Form1.resources
+C:\Users\williamd\Downloads\FirstPlay-Sports---Rental-Item-master\FirstPlay-Sports---Rental-Item-master\obj\Debug\net9.0-windows\FirstPlay Sports - Rental Item.vbproj.GenerateResource.cache
+C:\Users\williamd\Downloads\FirstPlay-Sports---Rental-Item-master\FirstPlay-Sports---Rental-Item-master\obj\Debug\net9.0-windows\FirstPlay Sports - Rental Item.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\williamd\Downloads\FirstPlay-Sports---Rental-Item-master\FirstPlay-Sports---Rental-Item-master\obj\Debug\net9.0-windows\FirstPlay Sports - Rental Item.AssemblyInfoInputs.cache
+C:\Users\williamd\Downloads\FirstPlay-Sports---Rental-Item-master\FirstPlay-Sports---Rental-Item-master\obj\Debug\net9.0-windows\FirstPlay Sports - Rental Item.AssemblyInfo.vb
+C:\Users\williamd\Downloads\FirstPlay-Sports---Rental-Item-master\FirstPlay-Sports---Rental-Item-master\obj\Debug\net9.0-windows\FirstPlay Sports - Rental Item.vbproj.CoreCompileInputs.cache
+C:\Users\williamd\Downloads\FirstPlay-Sports---Rental-Item-master\FirstPlay-Sports---Rental-Item-master\obj\Debug\net9.0-windows\FirstPlay Sports - Rental Item.dll
+C:\Users\williamd\Downloads\FirstPlay-Sports---Rental-Item-master\FirstPlay-Sports---Rental-Item-master\obj\Debug\net9.0-windows\refint\FirstPlay Sports - Rental Item.dll
+C:\Users\williamd\Downloads\FirstPlay-Sports---Rental-Item-master\FirstPlay-Sports---Rental-Item-master\obj\Debug\net9.0-windows\FirstPlay Sports - Rental Item.pdb
+C:\Users\williamd\Downloads\FirstPlay-Sports---Rental-Item-master\FirstPlay-Sports---Rental-Item-master\obj\Debug\net9.0-windows\FirstPlay Sports - Rental Item.genruntimeconfig.cache
+C:\Users\williamd\Downloads\FirstPlay-Sports---Rental-Item-master\FirstPlay-Sports---Rental-Item-master\obj\Debug\net9.0-windows\ref\FirstPlay Sports - Rental Item.dll
