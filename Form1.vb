@@ -39,7 +39,7 @@
         Dim anitem As Item = inv.GetItem(cboIdNumber.Text)
         If anitem Is Nothing Then
             MessageBox.Show("This item ID was not found")
-            clearfields()
+            ClearFields()
         Else
             txtDescription.Text = anitem.Description
             txtDaily.Text = anitem.DailyRate.ToString()
@@ -61,4 +61,23 @@
 
     End Sub
 
+    Private Sub btnAdd_Click(sender As Object, e As EventArgs) Handles btnAdd.Click
+        Try
+            Dim anItem As New Item
+            With anItem
+                .IDNumber = cboIdNumber.Text
+                .Description = txtDescription.Text
+                .DailyRate = CSng(txtDaily.Text)
+                .WeeklyRate = CSng(txtWeekly.Text)
+                .MonthlyRate = CSng(txtMonthly.Text)
+                .Quantity = CInt(txtQuantity.Text)
+            End With
+            inv.AddItem(anItem)
+            FillCombo()
+            MessageBox.Show("The item was add to the inventory")
+        Catch ex As Exception
+            MessageBox.Show(ex.Message, "Error")
+
+        End Try
+    End Sub
 End Class
