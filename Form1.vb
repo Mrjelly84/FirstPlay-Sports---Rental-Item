@@ -32,6 +32,7 @@
 
 
     Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btnClose.Click
+        inFile.SaveData(inv)
         Close()
     End Sub
 
@@ -79,5 +80,15 @@
             MessageBox.Show(ex.Message, "Error")
 
         End Try
+    End Sub
+
+    Private Sub btnRemove_Click(sender As Object, e As EventArgs) Handles btnRemove.Click
+        If MessageBox.Show("Are you sure you want to remove the current item from the inventory?", "Delete Item",
+                           MessageBoxButtons.YesNo, MessageBoxIcon.Question) = DialogResult.Yes Then
+            inv.RemoveItem(cboIdNumber.Text)
+            ClearFields()
+            FillCombo()
+
+        End If
     End Sub
 End Class
